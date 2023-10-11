@@ -3,7 +3,7 @@ from numbers import Number
 from typing import Dict, List, Optional, Sequence, Union, cast
 
 import numpy as np
-import pandas as pd
+import cudf as pd
 
 
 def try_(lazy_func, default=None, exception=Exception):
