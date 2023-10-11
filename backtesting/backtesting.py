@@ -19,7 +19,7 @@ from numbers import Number
 from typing import Callable, Dict, List, Optional, Sequence, Tuple, Type, Union
 
 import numpy as np
-import pandas as pd
+import cudf as pd
 from numpy.random import default_rng
 
 try:
