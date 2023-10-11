@@ -8,7 +8,7 @@ from functools import partial
 from typing import Callable, List, Union
 
 import numpy as np
-import pandas as pd
+import cudf as pd
 
 from bokeh.colors import RGB
 from bokeh.colors.named import (
