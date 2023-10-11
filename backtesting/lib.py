@@ -18,7 +18,7 @@ from numbers import Number
 from typing import Callable, Optional, Sequence, Union
 
 import numpy as np
-import pandas as pd
+import cudf as pd
 
 from ._plotting import plot_heatmaps as _plot_heatmaps
 from ._stats import compute_stats as _compute_stats
