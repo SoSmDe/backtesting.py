@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING, List, Union
 
 import numpy as np
-import pandas as pd
+import cudf as pd
 
 from ._util import _data_period
 
